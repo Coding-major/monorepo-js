@@ -1,0 +1,41 @@
+#step 1
+git init
+
+#step 2
+git add .
+git commit -m "initial commit".
+
+# step 3
+git add .gitkeep
+git commit -m "add empty backend directory"
+
+# step 5 
+git push -u origin main
+
+# step 6
+git branch frontend-layout
+git checkout frontend-layout
+
+# step 7
+git add .
+git commit -m "chore: add components and containers directory to frontend"
+
+# step 8
+git add index.js
+git commit -m "add content dynamically to page via JavaScript"
+
+# step 9
+git push -u origin frontend-layout
+
+# step 10
+git merge frontend-layout
+
+# step 11
+git add index.html
+git commit -m "add index.html file"
+
+# step 12
+git push -u origin main
+
+# step 13
+git branch commands
